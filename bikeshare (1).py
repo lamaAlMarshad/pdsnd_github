@@ -176,7 +176,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-
+	# changeing this var name from restart to reload
         reload = input('\nWould you like to restart? Enter yes or no.\n')
         if reload.lower() != 'yes':
             break
