@@ -1,7 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
-
+# this var is type of dictionar the key is the na,e of data files and the vaule is the data files
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
